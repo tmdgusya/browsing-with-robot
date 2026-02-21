@@ -6,6 +6,15 @@ allowed-tools: Bash(robot:*)
 
 # Browser Automation with `robot`
 
+## Setup
+
+```bash
+# install robot if not on PATH
+go install github.com/tmdgusya/robot.git@latest
+# or build from source
+git clone https://github.com/tmdgusya/robot.git /tmp/robot-build && cd /tmp/robot-build && go build -o /usr/local/bin/robot .
+```
+
 ## Quick start
 
 ```bash

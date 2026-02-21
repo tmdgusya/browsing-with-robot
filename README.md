@@ -4,7 +4,11 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that give
 
 ## Prerequisites
 
-You need the `robot` CLI installed and available on your PATH. Install it from: https://github.com/tmdgusya/robot
+You need the `robot` CLI installed and available on your PATH:
+
+```bash
+go install github.com/tmdgusya/robot@latest
+```
 
 ## Install
 

@@ -1,0 +1,16 @@
+{
+  "name": "browsing-with-robot-marketplace",
+  "owner": {
+    "name": "tmdgusya"
+  },
+  "metadata": {
+    "description": "Browser automation plugin for Claude Code using the robot CLI"
+  },
+  "plugins": [
+    {
+      "name": "browsing-with-robot",
+      "source": "./",
+      "description": "Browser automation for web browsing, scraping, form filling, screenshots, and UI interaction using the robot CLI"
+    }
+  ]
+}

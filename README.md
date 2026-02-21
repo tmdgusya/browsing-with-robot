@@ -1,6 +1,6 @@
 # browsing-with-robot
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that gives Claude browser automation superpowers — web browsing, scraping, form filling, screenshots, and UI interaction.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that gives Claude browser automation superpowers — web browsing, scraping, form filling, screenshots, and UI interaction.
 
 ## Prerequisites
 
@@ -8,8 +8,11 @@ You need the `robot` CLI installed and available on your PATH. Install it from: 
 
 ## Install
 
-```bash
-claude skill add --from https://github.com/tmdgusya/browsing-with-robot
+In Claude Code, run these commands:
+
+```
+/plugin marketplace add tmdgusya/browsing-with-robot
+/plugin install browsing-with-robot@browsing-with-robot-marketplace
 ```
 
 ## Usage

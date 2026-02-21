@@ -1,0 +1,5 @@
+{
+  "name": "browsing-with-robot",
+  "description": "Browser automation for web browsing, scraping, form filling, screenshots, and UI interaction using the robot CLI",
+  "version": "1.0.0"
+}

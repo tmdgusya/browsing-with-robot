@@ -1,0 +1,16 @@
+{
+  "description": "Cleanup robot browser daemon when Claude Code session ends",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/cleanup-robot.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

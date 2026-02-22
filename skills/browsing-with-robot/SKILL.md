@@ -86,4 +86,4 @@ robot stop
 
 - **Start first.** "daemon already running" error? Run `robot stop` then `robot start`.
 - **Prefer `text` over `screenshot`** — text is token-cheap. Screenshot only for visual layout.
-- **Always `robot stop` when finished** to clean up the browser process.
+- `robot stop` runs automatically when the session ends, but you can also run it manually between tasks.
